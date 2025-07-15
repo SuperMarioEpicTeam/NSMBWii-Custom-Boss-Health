@@ -1,0 +1,17 @@
+---
+source_files: []
+hooks:
+  - name: ChangeCommonNSMBWBossHealth1
+    type: patch
+    addr_pal: 0x800987c0
+    data: '38000048'
+
+  - name: ChangeCommonNSMBWBossHealth2
+    type: patch
+    addr_pal: 0x80b1fb40
+    data: '38000048'
+
+  - name: ChangeBowserJRHealth
+    type: patch
+    addr_pal: 0x8009b820
+    data: '38000048'
